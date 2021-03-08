@@ -9,4 +9,4 @@ I am a passionate cloud native full stack engineer on Amazon Web Services server
 
 > "It's Software, anything is possible!"
 
-I hope you find my blog posts useful and informative.
+
