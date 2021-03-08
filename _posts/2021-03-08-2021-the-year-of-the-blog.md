@@ -5,7 +5,7 @@ title:  "2021 The Year Of The Blog"
 
 I have been saying it to myself over and over, I have so much information in my head to share that I simply must start a blog!  Mostly this is where the thoughts stop and the whole question of "But I need to build my blog software", and as cool as that sounds it simply becomes an obstacle to getting it done!  
 
-So here it is, my personal blogging space setup using Jekyll and hosted on github pages.  I am a real dark theme fiend so needed to find a dark theme and one that I think is simple and easy to use is the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy). 
+So here it is, my personal blogging space setup using [Jekyll](https://jekyllrb.com/) and hosted on github pages.  I am a real dark theme fiend so needed to find a dark theme and one that I think is simple and easy to use is the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy).  I am also a **HUGE** fan of markdown for writing so Jekyll is ideal for me!
 
 I will now start brainstorming all the ideas I want to share and information around some of my favourite topics which is not limited to but will include:
 
