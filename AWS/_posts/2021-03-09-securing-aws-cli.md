@@ -94,7 +94,7 @@ The following steps will walk you through setting up MFA on your new user.
 At this point we now have a new programmatic access only user with MFA turned on and we can now prepare to use this from the command-line using the AWS Security Token Service (STS) to get a token for use by the cli.
 
 # Using MFA with the aws-cli
-In order to set this up I have created a shell script to call the STS get-session-token and store the temporary credentials into the shell environment so that the aws-cli will work.  The **awsenv** script can be found [here](https://gist.github.com/walmsles/e9f837bfbf567ffd29e99ae7f6612988).
+In order to set this up I have created a shell script to call the STS get-session-token and store the temporary credentials into the shell environment so that the aws-cli will work.  The **awsenv** script can be found [here](https://gist.github.com/walmsles/e9f837bfbf567ffd29e99ae7f6612988){:target="_blank"}.
 
 The **awsenv** shell script assumes the following:
 
