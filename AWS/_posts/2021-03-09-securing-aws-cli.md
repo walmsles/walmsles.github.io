@@ -53,7 +53,9 @@ This part is not actually neccessary but I like to setup a group that has our ne
 3. Click **Create New Group** to start the wizard
 4. Type the group name and press **Next**
 5. Next attach the **ForceMFA** policy using the filter box to find it
-6. Tick the checkbox next to **ForceMFA** policy and press **Next**
+6. Tick the checkbox next to **ForceMFA** policy 
+7. You will also need to provide more permissions so the user can create resources, to make life simple I use **AdministratorAccess** so I can deploy all services and since we have MFA in place there is further protection.
+8. Press **Next** to review the Group details.
 7. Click **Create Group** to complete group creation
 
 ## Creating the new User for CLI access
