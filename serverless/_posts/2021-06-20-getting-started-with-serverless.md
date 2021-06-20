@@ -7,6 +7,8 @@ I started learning about serverless development and AWS lambda in 2016 while wor
 
 It was this interest in perfecting and minimising deployment footprints and infrastructure management that made AWS lambda stand out for me as a technology choice for building out web APIs. Since learning about AWS lambda and its capabilities I have not returned to server or container approaches to building software, instead, I have been more focused on cloud-native services and AWS lambda. It has been over 4 years since I last deployed a server on AWS or any other provider and I feel cured of the need for servers forever.
 
+![Cloud Network](/assets/serverless/network-4851119_1280.jpg)
+
 My journey to building full-time with cloud-native services is a winding road of failings and learnings as I started to understand how to control all the puzzle pieces that AWS provides and how to combine these into a cohesive system that was resilient, robust, and highly scalable. In the remainder of this article, I want to highlight what I feel are the main considerations when trying to build out serverless solutions on AWS, a snapshot of my experience to date, and the main considerations for getting started.
 
 ## Keeping it Simple
