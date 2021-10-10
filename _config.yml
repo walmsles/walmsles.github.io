@@ -17,7 +17,7 @@ timezone: Australia/Melbourne
 # --------------------------
 title: "@walmsles"                          # the main title
 
-tagline: This is my personal blog space, all views and opinions presented here are my own.
+tagline: AWS Serverless Community Builder and Serverless Architect.  All opinions presented here are my own.
 
 description: >-                        # used by seo meta and the atom feed
   walmsles, Michael Walmsley, lambda,
