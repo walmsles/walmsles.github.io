@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Correlating Transactions with Zero Code"
-tags: ["aws", "serverless", "zero-code"]
+tags: ["aws", "serverless", "zerocode"]
 ---
 > I take pride in writing detailed, technical articles filled with solid code examples and links to Github so you can review and learn from my serverless journey. Today, I think this will be my shortest ever article, and it lacks all these things since starting on this Zero Code adventure.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Serverless Integration, Zero Code"
-tags: ["aws", "serverless", "zero-code"]
+tags: ["aws", "serverless", "zerocode"]
 ---
 
 > The words of Farah Campbell and Ben Kehoe on "The Serverless Mindset" has inspired me to level up my thinking and approach to Serverless integration. 
