@@ -3,9 +3,11 @@ layout: post
 title: "Correlating Transactions with Zero Code"
 tags: ["aws", "serverless", "zerocode"]
 ---
+
+![Cloud Network](/assets/end-of-road.jpg)
+
 > I take pride in writing detailed, technical articles filled with solid code examples and links to Github so you can review and learn from my serverless journey. Today, I think this will be my shortest ever article, and it lacks all these things since starting on this Zero Code adventure.
 
-  
 
 There are a lot of articles out there on correlating transactions across distributed systems and plenty of technical frameworks and solutions for providing transaction traceability. However, correlating transactions as the data passes through our services is essential to observe our system behaviour. So, as developers, we reach for what we know best our development tools, software frameworks and technical solutions. 
 
@@ -13,17 +15,12 @@ Adding Correlation Ids, tracing codes and segment identifiers takes effort and t
 
 Usually, we place these identifiers in HTTP Headers and other unique Attribute locations for Cloud-Native services so we can hide these away and provide them as transparent travellers across our distributed systems. In an AWS Managed service sense, this means we need to know how to pack and unpack these identifiers at each step through our serverless systems - across SQS boundaries, through EventBridge events and via SNS topics. These cloud-native services each have a different mechanism to save, transport, and unpack these keys to observability.
 
-  
-
 **But what if there was a different way without all this complexity and code?**
-
-  
 
 I want to share with you my thinking on this and what I have arrived at to resolve this technical problem in a way that transcends the AWS service complexities I just mentioned. Nowadays, I believe in using the language of integration, and for tracing transactions through distributed services, I create an internal integration language encapsulating these observability identifiers.
 
 Here is an example of a message structure from a system I am working on right now:
 
-  
 ```json
 {
     "correlation_id": "b58e7f98-2b58-11ec-8d3d-0242ac130003",
