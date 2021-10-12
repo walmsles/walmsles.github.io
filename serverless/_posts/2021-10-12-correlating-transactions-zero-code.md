@@ -3,11 +3,9 @@ layout: post
 title: "Correlating Transactions with Zero Code"
 tags: ["aws", "serverless", "zerocode"]
 ---
-
-![Cloud Network](/assets/end-of-road.jpg)
-
 > I take pride in writing detailed, technical articles filled with solid code examples and links to Github so you can review and learn from my serverless journey. Today, I think this will be my shortest ever article, and it lacks all these things since starting on this Zero Code adventure.
 
+![Cloud Network](/assets/end-of-road.jpg)
 
 There are a lot of articles out there on correlating transactions across distributed systems and plenty of technical frameworks and solutions for providing transaction traceability. However, correlating transactions as the data passes through our services is essential to observe our system behaviour. So, as developers, we reach for what we know best our development tools, software frameworks and technical solutions. 
 
