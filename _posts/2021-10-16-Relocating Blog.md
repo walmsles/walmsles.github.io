@@ -10,5 +10,7 @@ I am moving to hashnode for the community style benefits the platform provides w
 
 I will be leaving this site active for a short transition period and will eventually be taken offline, not sure when.  At the moment it is published on GitHub pages which is awesome and I have no regrets at all!  I just want to allow for you all to comment on my posts and have some basic stats for my articles and some better SEO than I can do myself.  I want to focus on Serverless Technologies and keep creating valuable content for you all to read and follow.
 
+For those who watch the RSS feed here is the new link [https://blog.walmsles.io/rss.xml](https://blog.walmsles.io/rss.xml)
+
 
 
